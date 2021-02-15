@@ -1,0 +1,67 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+    background: pink;
+}
+
+
+header{
+    
+    border:10px solid black;
+    margin:0px;
+    padding:0px;
+
+   
+}
+h1{
+    background:red;
+    padding: 20px;
+    font-family: 'Ranchers', cursive;
+    color: white;
+    font-size:200%;
+
+}
+
+h2{
+    background:blue;
+    padding:14px;
+    font-family: 'Ranchers', cursive;
+    color: white;
+    font-size: 100%;
+}
+
+section{
+    margin: 50px;
+    padding: 20px;
+    background: orange;
+    font-size: 120%;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    
+}
+h3{
+     background: yellow;
+     padding:5px;
+     font-size:170%;
+     color:black;
+   
+}
+
+p{
+ 
+
+
+}
+footer{
+
+   
+    padding: 20px;
+    background: green;
+    font-size: 100%;
+    color: white;
+    font-family: 'Anton', sans-serif;
+ 
+}
