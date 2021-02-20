@@ -1,0 +1,32 @@
+html{
+    font-size:20px;
+}
+
+
+.px{
+   font-size: 20px;
+}
+
+.em{
+ font-size: 1em;
+}
+
+.rem{
+    font-size: 1rem;
+    color: purple;
+}
+
+.container{
+    width: 200px;
+}
+
+.percent{
+    background: lightgreen;
+    width: 50%;
+}
+
+.vw{
+    background: orange;
+    width: 50vw;
+}
+

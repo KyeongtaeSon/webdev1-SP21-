@@ -1,0 +1,20 @@
+.subtitle{
+    background:skyblue; 
+}
+
+.text{
+    font-size: 20px;
+
+}
+
+.cool-text{
+ font-family: 'Comic Sans Ms';
+ font-size: 20px;
+ color: magenta;
+}
+
+#whatever{
+   width:200px;
+   height: 200px;
+   background: orange;
+}

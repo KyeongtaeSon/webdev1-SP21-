@@ -1,0 +1,12 @@
+img{
+
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.fire{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
