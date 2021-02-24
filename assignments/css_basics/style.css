@@ -4,64 +4,62 @@ padding:0;
 }
 
 body{
-    background: pink;
+    background: rgb(231, 231, 231);
+    font-family: 'Anton', sans-serif;
 }
 
 
 header{
-    
-    border:10px solid black;
-    margin:0px;
-    padding:0px;
-
-   
+    background: black;
+    padding: 1em 0;  
 }
+
 h1{
+    text-align: center;
     background:red;
-    padding: 20px;
-    font-family: 'Ranchers', cursive;
     color: white;
-    font-size:200%;
+    padding: .5em;
+    margin:0;
+    font-family: 'Ranchers', cursive;
+  
 
 }
 
 h2{
+    text-align: center;
     background:blue;
-    padding:14px;
+    padding:.5em;
+    margin:0;
     font-family: 'Ranchers', cursive;
-    color: white;
-    font-size: 100%;
-}
-
-section{
-    margin: 50px;
-    padding: 20px;
-    background: orange;
-    font-size: 120%;
-    font-family: 'Anton', sans-serif;
     color: white;
     
 }
 h3{
-     background: yellow;
-     padding:5px;
-     font-size:170%;
-     color:black;
-   
+    background: yellow;
+    padding: 1em;
+    color:gray;
+  
+}
+
+main{
+    width:90vw;
+    margin:0 auto;
+}
+
+section{
+    margin: 2em 0;
+    background: orange;
+    color: white;
+    
 }
 
 p{
- 
-
+  padding:1em;
+  font-size:20px;
 
 }
 footer{
-
-   
-    padding: 20px;
+    text-align: center;
     background: green;
-    font-size: 100%;
     color: white;
-    font-family: 'Anton', sans-serif;
- 
 }
