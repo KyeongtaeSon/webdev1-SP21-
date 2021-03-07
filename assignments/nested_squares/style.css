@@ -12,6 +12,18 @@ h1{
   color: white;
 }
 
+h2{
+  position: sticky;
+  top: 0;
+  text-align: end;
+  background: lightgray;
+  
+  
+  
+
+ 
+}
+
 .outer1{
   width:400px;
   height:400px;
