@@ -1,0 +1,68 @@
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    background-image: url('https://wallpaperaccess.com/full/104815.jpg');
+    background-size: cover;
+    
+ 
+}
+
+.phone{
+    background-image: url('https://i.pinimg.com/originals/a3/9e/ee/a39eee3870fd88756cf79d263a831840.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    border: 6px solid white;
+    border-radius: 20px;
+    height: 72vmin;
+    width:40vmin;
+    margin: 5%;
+  
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    height: 20%;
+    border: 2px lightgray;
+    border-radius: 10px;
+    margin: 4%;
+       
+}
+
+
+.app{
+    display:flex;
+    width: 250vw;
+    border: 1 solid rgb(255, 255, 255);
+    border-radius: 10%;
+    margin: 3%;
+    flex-wrap: wrap;
+    font-family: 'Do Hyeon', sans-serif;
+    
+    
+
+}
+
+a{
+    /* I'm stuck on here */
+    font-size:10%;
+    /* I'm stuck on here */
+    font-family: 'Do Hyeon', sans-serif;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    color:pink;
+}
+
+
+   
+
+
+
+
+
+
