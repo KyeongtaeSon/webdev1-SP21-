@@ -1,0 +1,65 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+    background: rgb(231, 231, 231);
+    font-family: 'Anton', sans-serif;
+}
+
+
+header{
+    background: black;
+    padding: 1em 0;  
+}
+
+h1{
+    text-align: center;
+    background:red;
+    color: white;
+    padding: .5em;
+    margin:0;
+    font-family: 'Ranchers', cursive;
+  
+
+}
+
+h2{
+    text-align: center;
+    background:blue;
+    padding:.5em;
+    margin:0;
+    font-family: 'Ranchers', cursive;
+    color: white;
+    
+}
+h3{
+    background: yellow;
+    padding: 1em;
+    color:gray;
+  
+}
+
+main{
+    width:90vw;
+    margin:0 auto;
+}
+
+section{
+    margin: 2em 0;
+    background: orange;
+    color: white;
+    
+}
+
+p{
+  padding:1em;
+  font-size:20px;
+
+}
+footer{
+    text-align: center;
+    background: green;
+    color: white;
+}
