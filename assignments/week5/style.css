@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
+    
 header{
     background-image: url('https://s3-cf.prod.veem.com/wp-content/uploads/2017/12/23090002/South-korea-banner-825x385.jpg');
     background-repeat: no-repeat;
+    background-position: center;
    
 }
 

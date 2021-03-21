@@ -1,0 +1,103 @@
+body{
+    background-image:url('https://i.pinimg.com/736x/56/58/6c/56586c83d06a53b3c25ce54bb4278f62.jpg');
+    font-family: 'Big Shoulders Display', cursive;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+  
+  
+  }
+  .container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    margin:0;
+    padding:0;
+    
+    list-style-type:none;
+    position:sticky;
+    top:0;
+ 
+}
+.item{
+    padding:15px;
+    cursor:pointer;
+   
+}
+.item a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+    font-family: 'Acme', sans-serif;
+}
+
+  h1{
+   font-family: 'Hanalei', cursive;
+   font-family: 'Stalinist One', cursive;
+    font-size: 500%;
+    color:#E04B03;  
+    border: solid navy 10px;
+  }
+  
+  h2{
+  color: #E09400;
+  padding:1px;
+  font-size:30px;
+   border: solid navy 8px;
+    
+  }
+  
+  .welcome{
+    
+     font-family: 'Hanalei', cursive;
+   font-family: 'Stalinist One', cursive;
+    color:#E04B03;  
+  }
+  
+  section{
+   color:white;
+   font-size:20px;
+  }
+  
+  
+  .nav-container{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    
+    background-color: blue;
+    list-style-type:none;
+    opacity: 0.6;
+  
+    
+    
+   
+  }
+  
+  .nav-item{
+    padding:10px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+   
+  }
+  
+  
+  
+  .image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid navy 10px;
+  }
+  
+  .image-wrapper .image {
+    width: 50%;
+  }
+  
+  .image-wrapper img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+  }
+  
+  

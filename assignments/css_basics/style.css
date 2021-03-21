@@ -3,6 +3,31 @@ margin:0;
 padding:0;
 }
 
+.nav-container{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  margin:0;
+  padding:0;
+  /* background-color: #282828; */
+  list-style-type:none;
+  position:fixed;
+  top:0;
+
+}
+.nav-item{
+  padding:15px;
+  cursor:pointer;
+ 
+}
+.nav-item a{
+  text-align: center;
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 1em;
+  font-family: 'Acme', sans-serif;
+}
+
 body{
     background: rgb(231, 231, 231);
     font-family: 'Anton', sans-serif;
