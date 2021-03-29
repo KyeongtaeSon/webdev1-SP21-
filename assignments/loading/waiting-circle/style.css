@@ -1,0 +1,52 @@
+.nav-container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    margin:0;
+    padding:0;
+   
+    list-style-type:none;
+    position:fixed;
+    top:0;
+ 
+}
+.nav-item{
+    padding:15px;
+    cursor:pointer;
+   
+}
+.nav-item a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+    font-family: 'Staatliches', cursive;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:#000;
+}
+
+.loading span{
+    display: inline-block;
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+    background:rgb(104, 225, 255);
+    border-radius: 50%;
+    text-indent:-999px;
+    margin: 0 10px;
+    animation: loading 1s ease infinite;
+}
+.loading span:nth-child(2) {animation-delay: .2s;}
+.loading span:nth-child(3) {animation-delay: .4s;}
+.loading span:nth-child(4) {animation-delay: .6s;}
+
+@keyframes loading{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(10px);}
+} 

@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav-container{
+    color: pink;
+    background: pink;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    font-family: 'Staatliches', cursive;
+    color:rgb(104, 225, 255);
+}
+
+
