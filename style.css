@@ -5,31 +5,46 @@
 }
 
 body{
-    background:#282828;
-    font-family:'DotGothic16', sans-serif;
+    /* background:#71a7e5; */
+    background:url('img/Chicag.jpeg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    font-family: 'Acme', sans-serif;
 }
+
 h1{
     text-align: center;
     margin-top:3em;
     font-size: 3em;
     font-family: 'Acme', sans-serif;
-    color: white;
+    color:white;
+    text-shadow:3px 3px 3px gray;
+    margin: 1em;
+}
 
+img{
+    width :40vw;
+    display:block;
+    margin: 0 auto;
+
+ 
+   
 }
 .nav-menu{
     display: flex;
     justify-content: space-around;
     align-items:center;
-    height: 100vh;
+
 
 }
 
 .nav-menu a{
-    font-size: 24px;
-    color:#fff;
+    font-size: 30px;
+    color:white;
     text-decoration: none;
     position: relative;
     padding: 6px 12px;
+    text-shadow:3px 3px 3px gray;
 
 }
 
@@ -40,7 +55,7 @@ h1{
     left:50%;
     transform:translateX(-50%);
     width:0%;
-    height:4px;
+    height:5px;
     background:#0066ff;
     transition: all .5s east-out;
 }
