@@ -47,8 +47,8 @@
     flex-direction: column;
     border: 6px solid white;
     border-radius: 20px;
-    height: 72vmin;
-    width:40vmin;
+    /* height: 72vmin;
+    width:40vmin; */
     margin: 5%;
   
 }
@@ -60,6 +60,7 @@
     border: 2px lightgray;
     border-radius: 10px;
     margin: 4%;
+   
        
 }
 
@@ -70,27 +71,36 @@
     align-items: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 1em;
-    font-size: 6vmin;
+    font-size: 2vmin;
     margin: 1em;
     flex-wrap: wrap;
     font-family: 'Do Hyeon', sans-serif;
     color: pink;
     text-align: center;
     background-size: cover;
+    height:5vh;
+    width: 5vw;
+   
+   
 }
 
 .app1 { 
-    background-image: url(https://i.pinimg.com/originals/59/06/51/59065150fc1020528b4df6ffb0b4c302.jpg); }
+    background-image: url(https://i.pinimg.com/originals/59/06/51/59065150fc1020528b4df6ffb0b4c302.jpg);
+     
+}
 .app2 { 
     background-image: url(https://cdn.crowdpic.net/list-thumb/thumb_l_0F01986D691EAC15A4572331499EBDE5.jpg);
+  
     }
 
 .app3{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToh-HTIoAK0rG5aU1rlZyY_7Iv6PaQh1hb5w&usqp=CAU);
+   
 }
 
 .app4{
     background-image: url(https://i.pinimg.com/originals/41/84/d8/4184d8b9675f68075a0544aad9cc60ee.jpg);
+
 }
 
 
