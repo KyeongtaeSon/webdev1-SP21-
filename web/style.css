@@ -5,7 +5,7 @@
 }
 
 body{
-
+ 
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -28,9 +28,12 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-    text-align: center;
+    text-align: center;  
     padding:6rem;
     margin:1rem;
+   
+    
+  
   
 }
 
@@ -70,7 +73,7 @@ img{
     width: 20vw;
     display:block;
     margin: 0 auto;
-    border: 3px solid #F2D4C2;
+    /* border: 3px solid #F2D4C2; */
 
    
 }
