@@ -1,0 +1,119 @@
+*{margin: 0; padding:0; box-sizing: border-box;}
+
+body{
+    background-color:
+    #dadada;
+ 
+   
+}
+
+.container{
+
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:50px;
+
+
+}
+header nav{
+    position: absolute;
+    top:0;
+    right:0;
+}
+header a{
+    font-size:16px;
+    color:black;
+    display:inline-block;
+    vertical-align: middle;
+    padding:5px;
+    margin: 0 10px;
+}
+
+
+main{
+    content:"";
+
+  
+}
+
+main.container{
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+  
+} 
+
+
+/* box */
+
+.services-area {
+    width:35vw;
+    margin-top:15%;
+    margin-left:10%;
+
+ 
+}
+
+.services-area > .menu {
+    text-align: center;
+}
+
+.services-area > .menu > .item {
+    height: auto;
+    background-color: #F2F2F2;
+    padding: 15px; 
+    margin: 15px; 
+    transition: all 0.5s ease;
+
+
+}
+
+.services-area > .menu> .item:hover {
+    transform: scale(1.015);
+    box-shadow: 0 10px 20px 0 #021E73;
+}
+
+.services-area > .menu > .item > .icon {
+    padding: 5px 0;
+    display: inline-block; 
+    height: 1px;
+    width:1px;
+ 
+}
+
+.services-area > .menu> .item > .icon > span > i {
+    font-size: 28px;
+    color: #aaa;
+   
+}
+
+.services-area > .menu > .item > .service {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px 0;
+    font-family:'Bebas Neue', cursive;
+    
+}
+
+.title{
+    color: black;
+    text-align: center;
+}
+
+img{
+    width:40vw;
+    margin-left:55%;
+    margin-top:10%;
+    position:relative;
+   
+
+  
+}
