@@ -1,8 +1,10 @@
 *{margin: 0; padding:0; box-sizing: border-box;}
 
 body{
-    background-color:
-    #dadada;
+    background-image: url('img/IMG_5933.jpg');
+    background-repeat: none;
+    background-size: cover;
+ 
  
    
 }
@@ -108,7 +110,7 @@ main.container{
     text-align: center;
 }
 
-img{
+/* img{
     width:40vw;
     margin-left:55%;
     margin-top:10%;
@@ -116,4 +118,4 @@ img{
    
 
   
-}
+} */
