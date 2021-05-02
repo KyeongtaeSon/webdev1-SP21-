@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    position: fixed;
+    position: absolute;
     top:0;
     left:0;
     right:0;
@@ -56,7 +56,7 @@ main.container{
 
 .services-area {
     width:35vw;
-    margin-top:15%;
+    margin-top:25%;
     margin-left:10%;
 
  
@@ -90,13 +90,13 @@ main.container{
 }
 
 .services-area > .menu> .item > .icon > span > i {
-    font-size: 28px;
+    /* font-size: 28px; */
     color: #aaa;
    
 }
 
 .services-area > .menu > .item > .service {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: bold;
     padding: 3px 0;
     font-family:'Bebas Neue', cursive;
