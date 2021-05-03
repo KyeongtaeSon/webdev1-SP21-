@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;	
+}
+header{
+    margin:2em;
+}
+a{
+    color:#232240;
+    text-decoration: none;
+    font-family: 'Lora', serif;   
+    font-size: 14px;
+    text-transform: uppercase;
+     
+}
+
+
+ h1{
+    text-align: center;
+    font-family: 'Lora', serif; 
+    color: #59331D;
+
+}  
+
+
+body{
+    background-color: #8C857D;
+    margin:0;
+    line-height: 1.4;
+}
+
+.box{
+ width: 50%;
+ padding:10px;
+ margin:2rem auto;
+ border: 3px solid #59331D;;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1rem;
+
+
+}
+p{
+    line-height:30px;
+    
+
+   
+}
