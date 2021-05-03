@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+h1 {
+  color: rgb(1, 48, 136);
+  font-family: 'Major Mono Display', monospace;
+  margin-top: 80px;
+  font-size: 200%;
+  color: white;
+
+}
+
+a{
+  display: inline-block;
+  margin: 20px;
+
+
+}
+
+
+img{
+    max-width: 100px;
+
+}
+
+body{
+  background-color: rgb(155, 155, 155);
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin:0;
+  padding:0;
+  background-color: white;
+  list-style-type: none;
+  position:fixed;
+  top:0;
+  opacity: 0.8;
+  
+
+ 
+
+}
+
+.nav-item{
+  padding: 15px;
+  cursor: pointer;
+}
+
+.nav-item a{
+  text-align: center;
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+  display: center;
+  font-size: 100%;
+
+}
+
+.nav-item:nth-child(1){
+  background-color: rgb(211, 211, 211);
+}
+
+.nav-item:hover{
+  
+  background-color: rgb(211, 211, 211);
+  
+}
+
+.h-item:hover{
+  background-color: black;
+}
+
+
+  

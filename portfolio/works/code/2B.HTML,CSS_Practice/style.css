@@ -1,0 +1,112 @@
+body{
+  margin: 10%;
+  background-image:url('https://www.stkconf.org/wp-content/uploads/2018/10/Web-Page-Background-Color.jpg');
+  font-family: 'Cute Font', cursive;
+}
+
+h2{
+  font-size: 70px;
+  color:rgb(54, 118, 202);
+ 
+}
+
+h3{
+  font-size: 50px;
+  color:rgb(121, 121, 121);
+  
+}
+
+h4{
+  font-size:30px;
+  color:rgb(121, 121, 121);
+}
+img{
+  height: 30vw;
+  width: 50vh; 
+  
+}
+.p{
+  background: rgb(143, 187, 253);
+  margin: 100px;
+  padding: 10%;
+  border: 5px solid rgb(17, 107, 224);
+  border-radius: 5%;
+  
+ }
+
+p{
+  font-size: 40px;  
+}
+
+.s{
+  background: rgb(143, 187, 253);
+  margin: 100px;
+  border: 5px solid  rgb(17, 107, 224);
+  border-radius: 5%;
+  padding: 10%;
+
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin:0;
+  padding:0;
+  background-color: white;
+  list-style-type: none;
+  position:fixed;
+  top:0;
+  opacity: 0.8;
+  
+
+ 
+
+}
+
+.nav-item{
+  padding: 15px;
+  cursor: pointer;
+}
+
+.nav-item a{
+  text-align: center;
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+  display: center;
+  font-size: 100%;
+  
+
+}
+
+.nav-item:nth-child(1){
+  background-color: rgb(211, 211, 211);
+}
+
+.nav-item:hover{
+  
+  background-color: rgb(211, 211, 211);
+  
+}
+
+.h-item:hover{
+  background-color: black;
+}
+
+
+header{
+  
+  font-size: 500%;
+  color: rgb(122, 179, 255);;
+  font-family: 'Bebas Neue', cursive;
+  display: inline;
+  border: 5px solid rgb(159, 197, 255);
+  border-radius: 10px;
+  
+  
+  }
+
+  
+  
+  
+

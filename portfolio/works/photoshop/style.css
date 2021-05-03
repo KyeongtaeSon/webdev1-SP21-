@@ -1,0 +1,49 @@
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style-type: none;
+  top:0;
+  opacity: 0.8;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 200%;
+  margin:0;
+  padding:0;
+  position:fixed;
+  
+}
+
+.nav-item{
+  padding: 15px;
+  cursor: pointer;
+}
+
+.nav-item a{
+  text-align: center;
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+  display: center;
+  font-size: 100%;
+
+}
+
+body{
+   
+  background-image:url('Images/backgroundwhite.jpg');
+  background-repeat: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
