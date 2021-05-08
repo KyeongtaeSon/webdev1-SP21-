@@ -5,15 +5,15 @@
 }
 header{
 	margin:2em;
-	font-family: 'Lora', serif; 
+	font-family: 'Open Sans Condensed', sans-serif;
 	text-decoration: none;
 }
 
 body {
-	font-family: 'Lora', serif; 
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin:0;
-    background-color: #8C857D;
-    line-height: 1.4;
+    background-color: #F2F2F2;
+    line-height: 1.5;
 }
 
 img {
@@ -25,7 +25,7 @@ a {
     text-decoration: none;
     font-size: 14px;
     text-transform: uppercase;
-	color:#232240;
+    color:hsl(0, 0%, 25%);
 }
 
 ul {
@@ -34,16 +34,14 @@ ul {
 
 
 section {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .title {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    letter-spacing: 3px;
-    padding-bottom: 100px;
-	
+    padding-bottom: 50px;	
 	
 }
 
@@ -53,14 +51,14 @@ section {
     width: 200px;
     height: 10px;
     margin: 0 auto;
-    background-image: linear-gradient(to right, #8C857D, #59331D);
-	opacity: 0.5;
+    background-image: linear-gradient(to right, #F2F2F2, #737373);
+	opacity: 0.6;
 }
 
 .about-area {
 	height: auto;
 	position: relative;
-	color: #59331D;
+	color: #737373;
 }
 
 .about-area > .picture {
@@ -86,8 +84,8 @@ section {
 	font-size: 25px;
 	text-align: center;
 	padding: 15px 0;
-	font-family: 'Lora', serif; 
-	color:#232240;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#0D0D0D;
 }
 
 .about-area > .picture > .description {
@@ -110,14 +108,13 @@ section {
 }
 
 .about-area > .text * {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .about-area > .text > .intro {
-	padding: 20px 0;
-	font-family: 'Padauk', sans-serif; 
-	letter-spacing: 2px;
-	color:#BABCBF;
+	padding: 80px 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#737373;
 }
 
 .about-area > .text > ul {
@@ -129,12 +126,13 @@ section {
 }
 
 .about-area > .text > ul > li > .info {
-	color:#BABCBF;
-	font-family: 'Lora', serif; 
+	color:#737373;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .about-area > .text > ul > li > .info > i {
-	color: #232240;
+	color: #0D0D0D;
+
 }
 
 .about-area > .text > .sns {
@@ -151,7 +149,7 @@ section {
 .about-area > .text > .sns > a {
 	width: 50px;
 	line-height: 50px;
-	background-color: #BABCBF;
+	background-color: #D9D9D9;
 	border-radius: 5px;
 	font-size: 20px;
 	display: inline-block;
@@ -160,6 +158,7 @@ section {
 }
 
 .about-area > .text > .sns > a:hover {
-	background-image: linear-gradient(to right, #8C857D, #232240);
+	/* background-image: linear-gradient(to right, #8C857D, #232240); */
+	opacity: .5;
 }
 

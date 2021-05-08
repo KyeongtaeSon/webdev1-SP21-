@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+.nav-container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: #32a3ff;
+    list-style-type:none;
+    position:fixed;
+    top:0;
+ 
+}
+.nav-item{
+    padding:15px;
+    cursor:pointer;
+   
+}
+.nav-item a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+    font-family: 'Acme', sans-serif;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    background-image: url('https://wallpaperaccess.com/full/104815.jpg');
+    background-size: cover;
+    
+ 
+}
+
+.phone{
+    background-image: url('https://i.pinimg.com/originals/a3/9e/ee/a39eee3870fd88756cf79d263a831840.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    border: 6px solid white;
+    border-radius: 20px;
+    /* height: 72vmin;
+    width:40vmin; */
+    margin: 5%;
+  
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    height: 20%;
+    border: 2px lightgray;
+    border-radius: 10px;
+    margin: 4%;
+   
+       
+}
+
+
+.app{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    font-size: 2vmin;
+    margin: 1em;
+    flex-wrap: wrap;
+    font-family: 'Do Hyeon', sans-serif;
+    color: pink;
+    text-align: center;
+    background-size: cover;
+    height:5vh;
+    width: 5vw;
+   
+   
+}
+
+.app1 { 
+    background-image: url(https://i.pinimg.com/originals/59/06/51/59065150fc1020528b4df6ffb0b4c302.jpg);
+     
+}
+.app2 { 
+    background-image: url(https://cdn.crowdpic.net/list-thumb/thumb_l_0F01986D691EAC15A4572331499EBDE5.jpg);
+  
+    }
+
+.app3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToh-HTIoAK0rG5aU1rlZyY_7Iv6PaQh1hb5w&usqp=CAU);
+   
+}
+
+.app4{
+    background-image: url(https://i.pinimg.com/originals/41/84/d8/4184d8b9675f68075a0544aad9cc60ee.jpg);
+
+}
+
+
+
+
+

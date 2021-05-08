@@ -1,0 +1,15 @@
+header{
+    margin:2rem;
+    position:absolute;
+  }
+  .back{
+    color:#0D0D0D;
+    text-decoration: none;
+    font-size:1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+  
+  }
+
+  h1{
+     text-align: center;
+  }

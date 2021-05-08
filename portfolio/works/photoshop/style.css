@@ -1,39 +1,67 @@
-.nav-container{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  list-style-type: none;
-  top:0;
-  opacity: 0.8;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 200%;
+*{
   margin:0;
   padding:0;
-  position:fixed;
+  box-sizing: border-box;
+}
+header{
+  margin:2rem;
+  position:absolute;
+}
+.back{
+  color:#0D0D0D;
+  text-decoration: none;
+  font-size:1rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+h1{
+  font-size: 2rem;
+  margin:4rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#404040;
+ 
+}
+
+h2{
+  font-size:1rem;
+  color:#404040;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+ 
+}
+p{
+  font-size: .9rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /* color:#737373; */
+  color:#404040;
+  background-color:rgb(242, 242, 242, 0.3);
+}
+body{
+   
+  background-color:#d9d9d9;
+  background-repeat: none;
+  text-align: center;
+
+}
+
+.container {
+	display: grid;
+  max-width: 700px;
+  margin:0 auto;
+ 
+
+
   
 }
 
-.nav-item{
-  padding: 15px;
-  cursor: pointer;
-}
-
-.nav-item a{
+img {
+  width: 100%;
+	height: auto;
   text-align: center;
-  text-decoration: none;
-  color: rgb(46, 45, 45);
-  display: center;
-  font-size: 100%;
+  padding:1rem;
 
+  
 }
-
-body{
-   
-  background-image:url('Images/backgroundwhite.jpg');
-  background-repeat: none;
-}
-
-
 
 
 
