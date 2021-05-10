@@ -8,8 +8,10 @@
 
 body{
     font-family: 'Open Sans Condensed', sans-serif;
-    background-color: var(--bg-color);     
+    background-color: var(--bg-color);
+         
 }
+
 
 header{
     padding:2rem;
@@ -51,8 +53,21 @@ don't touch */
     flex-direction: column;
     padding: 1rem;
     line-height:1.5;
-    font-size: 1.1rem;    
+    font-size: 1.1rem; 
+    animation-duration: 5s;
+    animation-name: slidein;   
 }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 
 /* /footer */
